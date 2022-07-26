@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Admin</title>
+  </head>
+  <body>
+    <a class="logo-link" href="/index.html"
+      ><img class="logo-img" src="../images/logo.png" alt=""
+    /></a>
+    <script src="../js/auth.js"></script>
+    <h1>Add a new product</h1>
+    <form id="form" enctype="multipart/form-data">
+      <label for="id">id</label>
+      <input type="number" id="id" name="id" autofocus />
+      <br />
+      <label for="category">Category</label>
+      <select name="category" id="category">
+        <option value="men">men</option>
+        <option value="women">women</option>
+        <option value="accessories">Accessories</option>
+      </select>
+      <br />
+      <label for="title">Title</label>
+      <input type="text" id="title" name="title" />
+      <br />
+      <label for="description">Description</label>
+      <br />
+      <textarea
+        name="description"
+        id="description"
+        cols="50"
+        rows="10"
+      ></textarea>
+      <br />
+      <label for="price">Price</label>
+      <input type="number" id="price" min="0" name="price" />
+      <br />
+      <label for="texture">Texture</label>
+      <input type="text" id="texture" name="texture" />
+      <br />
+      <label for="wash">Wash</label>
+      <input type="text" id="wash" name="wash" />
+      <br />
+      <label for="place">Place</label>
+      <input type="text" id="place" name="place" />
+      <br />
+      <label for="note">Note</label>
+      <input type="text" id="note" name="note" />
+      <br />
+      <label for="story">Story</label>
+      <br />
+      <textarea
+        name="story"
+        id="story"
+        name="story"
+        cols="50"
+        rows="5"
+      ></textarea>
+      <br />
+      <label for="colors">Colors</label>
+      <input
+        type="text"
+        name="colors"
+        id="colors"
+        placeholder="334455,深藍,FFFFFF,白色"
+      />
+      <br />
+      <label for="sizes">Sizes</label>
+      <input type="text" name="sizes" id="sizes" placeholder="S,M,L,XL" />
+      <br />
+      <label for="vairants">Variants</label>
+      <input
+        type="text"
+        name="variants"
+        id="variants"
+        placeholder="334455,S,5,334455,M,10"
+      />
+      <br />
+      <hr />
+      <label for="main_image">Main Image</label>
+      <br />
+      <input type="file" name="main_image" />
+      <br />
+      <label for="images">Images</label>
+      <br />
+      <input type="file" name="images" multiple />
+      <hr />
+      <button type="button" id="submitButton">Add</button>
+      <input type="reset" value="reset" />
+    </form>
+  </body>
+  <script src="../js/adminProduct.js"></script>
+</html>

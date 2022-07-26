@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Out</title>
+  </head>
+  <body>
+    <a class="logo-link" href="/index.html"
+      ><img class="logo-img" src="../images/logo.png" alt=""
+    /></a>
+    <script src="../js/auth.js"></script>
+    <style>
+      .tpfield {
+        height: 40px;
+        width: 300px;
+        border: 1px solid gray;
+        margin: 5px 0;
+        padding: 5px;
+      }
+      p {
+        font-size: 20px;
+      }
+    </style>
+    <h1 id="login-title">Log In</h1>
+    <form id="login-form" enctype="multipart/form-data">
+      <label for="email">Email</label>
+      <br />
+      <input type="email" id="email" name="email" autofocus />
+      <br />
+      <label for="password">Password</label>
+      <br />
+      <input type="password" id="password" name="password" />
+      <br />
+      <button type="button" id="login-button">Login</button>
+      <input type="reset" value="reset" />
+    </form>
+    <hr />
+    <h1>Credit Card Information</h1>
+    <div class="tpfield" id="card-number"></div>
+    <br />
+    <div class="tpfield" id="card-expiration-date"></div>
+    <br />
+    <div class="tpfield" id="card-ccv"></div>
+    <input id="pay-button" type="submit" value="Pay" />
+
+    <script src="https://js.tappaysdk.com/tpdirect/v5.8.0"></script>
+    <script src="../js/checkout.js"></script>
+  </body>
+</html>

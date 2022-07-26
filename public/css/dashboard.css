@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.chart-block {
+  display: flex;
+  width: 50%;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+#total-revenue {
+  font-size: 60px;
+  width: 310px;
+}
+
+#color-percentage {
+  width: 310px;
+}

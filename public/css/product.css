@@ -1,0 +1,129 @@
+@import "style.css";
+
+hr {
+    width: 100%;
+}
+
+.top-container {
+    margin-top: 200px;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+
+#product-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#product-color {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    border: none;
+    /* padding-top: 19px;
+    padding-bottom: 19px; */
+}
+
+#product-color-boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.product-color-box {
+    width: 34px;
+    height: 34px;
+    padding: 6px;
+    border: solid 1px rgb(245, 236, 236);
+}
+
+.product-color-box-select {
+    border: solid 1px #979797;
+}
+
+#product-size {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    /* padding-top: 19px;
+    padding-bottom: 19px; */
+}
+
+#product-size-circles {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.product-size-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ececec;
+}
+
+.product-size-circle-select {
+    background-color: black;
+    color: #ececec;
+}
+
+/* .product-size-circle:first-child {
+    background-color: black;
+    color: #ececec;
+} */
+
+#product-quantity {
+    display: flex;
+    gap: 10px;
+}
+
+#quantity-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: thin solid black;
+    width: 50%;
+}
+
+.quantity-button {
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+#card-number-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tpfield {
+    height: 40px;
+    width: 300px;
+    border: 1px solid gray;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.bottom-container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.bottom-container-image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}

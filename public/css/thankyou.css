@@ -1,0 +1,11 @@
+@import "style.css";
+.main {
+    height: 400px;
+}
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    height: 100%;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campaign Admin</title>
+  </head>
+  <body>
+    <script src="../js/auth.js"></script>
+    <a class="logo-link" href="/index.html"
+      ><img class="logo-img" src="../images/logo.png" alt=""
+    /></a>
+    <h1>Add new campaign</h1>
+    <form id="form" enctype="multipart/form-data">
+      <label for="id">Product id</label>
+      <input type="number" id="id" name="id" autofocus />
+      <br />
+      <label for="story">Story</label>
+      <br />
+      <textarea name="story" id="story" cols="50" rows="10"></textarea>
+      <br />
+      <hr />
+      <label for="image">Image</label>
+      <br />
+      <input type="file" name="image" />
+      <hr />
+      <button type="button" id="submitButton">Add</button>
+      <input type="reset" value="reset" />
+    </form>
+  </body>
+  <script src="../js/campaign.js"></script>
+</html>
